@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#000000" />
+
+  <!-- ===================== SEO ===================== -->
+  <title>Thayed Restaurante | Fusión latino-coreana, bowls, burgers y salsas exclusivas — GAM, CDMX</title>
+  <meta name="description" content="Thayed Restaurante: fusión de sabores latinoamericanos y coreanos en Gustavo A. Madero, CDMX. Bowls de ramen, hamburguesas, burritos, alitas, salsas exclusivas y bebidas de la casa. Pide por WhatsApp al 55 4783 9629." />
+  <meta name="keywords" content="Thayed restaurante, comida coreana CDMX, bowl de ramen, hamburguesas Gustavo A. Madero, boneless, alitas, burritos, chilaquiles, Cuautepec, salsas exclusivas, bebidas de la casa" />
+  <meta name="author" content="Thayed Restaurante" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://thayedrestaurante.com/" />
+
+  <!-- Open Graph / Redes -->
+  <meta property="og:type"        content="restaurant" />
+  <meta property="og:site_name"   content="Thayed Restaurante" />
+  <meta property="og:title"       content="Thayed Restaurante — Ven por el antojo, regresa por el sabor" />
+  <meta property="og:description" content="Fusión latino-coreana en CDMX: bowls de ramen, hamburguesas jugosas, alitas, burritos y bebidas exclusivas de la casa. Pide por WhatsApp." />
+  <meta property="og:image"       content="img/og-thayed.jpg" />
+  <meta property="og:locale"      content="es_MX" />
+  <meta name="twitter:card"       content="summary_large_image" />
+
+  <!-- Favicon (logo de marca, sin fondo) -->
+  <link rel="icon" type="image/png" href="img/favicon.png" />
+  <link rel="apple-touch-icon" href="img/favicon.png" />
+
+  <!-- Tipografía: display corporativa + texto legible + acento de pincel (marca) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700;800&family=Kaushan+Script&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Datos estructurados (sólo información verificada del negocio) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Thayed Restaurante",
+    "slogan": "Buen sabor, buen momento",
+    "description": "Restaurante de fusión latinoamericana y coreana: bowls, hamburguesas, burritos, entradas, salsas exclusivas y bebidas de la casa.",
+    "image": "img/og-thayed.jpg",
+    "servesCuisine": ["Fusión", "Coreana", "Mexicana", "Hamburguesas"],
+    "priceRange": "$$",
+    "telephone": "+525547839629",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Cuautepec, Gustavo A. Madero",
+      "addressRegion": "Ciudad de México",
+      "addressCountry": "MX"
+    },
+    "geo": { "@type": "GeoCoordinates", "latitude": 19.5553424, "longitude": -99.1324359 },
+    "hasMap": "https://www.google.com/maps?q=19.5553424,-99.1324359&z=17&hl=es",
+    "sameAs": ["https://www.facebook.com/share/197CVoY4V1/"],
+    "paymentAccepted": "Efectivo, Transferencia, Tarjeta"
+  }
+  </script>
+</head>
+
+<body class="is-loading">
+
+<!-- =========================================================
+     PRELOADER — logo de marca + spinner + porcentaje.
+     Al terminar, cuatro cortinas descubren la página.
+========================================================= -->
+<div id="preloader" role="status" aria-live="polite" aria-label="Cargando Thayed Restaurante">
+  <div class="pl-grid" aria-hidden="true"></div>
+  <div class="pl-mark">
+    <span class="pl-ring" aria-hidden="true"></span>
+    <span class="pl-ring pl-ring--2" aria-hidden="true"></span>
+    <img src="img/logo-thayed.png" alt="Logo de Thayed Restaurante" />
+  </div>
+  <p class="pl-texto">Cargando</p>
+  <div class="pl-barra"><span id="pl-barra"></span></div>
+  <p class="pl-pct" id="pl-pct">0%</p>
+</div>
+<div class="pl-cortinas" aria-hidden="true">
+  <div class="pl-cortina"></div>
+  <div class="pl-cortina"></div>
+  <div class="pl-cortina"></div>
+  <div class="pl-cortina"></div>
+</div>
+
+<!-- Barra de progreso de lectura -->
+<div class="progreso" id="progreso" aria-hidden="true"></div>
+
+<!-- =========================================================
+     NAVBAR — logo grande a la izquierda, menú a la derecha,
+     CTA de WhatsApp siempre visible.
+========================================================= -->
+<nav class="navbar" id="navbar" role="navigation" aria-label="Navegación principal">
+  <a href="#inicio" class="marca" aria-label="Thayed Restaurante — Inicio">
+    <img src="img/logo-thayed.png" alt="Thayed Restaurante, buen sabor buen momento" />
+  </a>
+
+  <ul class="nav-links">
+    <li><a href="#menu">Menú</a></li>
+    <li><a href="#razones">Por qué Thayed</a></li>
+    <li><a href="#proceso">Cómo pedir</a></li>
+    <li><a href="#galeria">Galería</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+    <li>
+      <a class="nav-cta" href="https://wa.me/525547839629?text=%C2%A1Hola%20Thayed!%20Quiero%20hacer%20un%20pedido%20%F0%9F%94%A5" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M11.999 0C5.373 0 0 5.373 0 12c0 2.117.554 4.1 1.523 5.82L.057 23.862l6.197-1.427A11.934 11.934 0 0012 24c6.627 0 12-5.373 12-12S18.626 0 11.999 0zm.001 21.818a9.801 9.801 0 01-4.99-1.366l-.358-.213-3.677.846.873-3.576-.233-.368A9.818 9.818 0 012.18 12C2.18 6.57 6.57 2.18 12 2.18c5.43 0 9.818 4.39 9.818 9.82 0 5.43-4.39 9.818-9.818 9.818z"/></svg>
+        Pedir por WhatsApp
+      </a>
+    </li>
+  </ul>
+
+  <button class="hamburguesa" id="hamburguesa" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu-movil">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- Menú móvil a pantalla completa -->
+<div class="menu-movil" id="menu-movil" aria-hidden="true">
+  <a href="#menu">Menú</a>
+  <a href="#razones">Por qué Thayed</a>
+  <a href="#sabores">Salsas y bebidas</a>
+  <a href="#proceso">Cómo pedir</a>
+  <a href="#galeria">Galería</a>
+  <a href="#contacto">Contacto</a>
+  <a class="btn btn--primario" href="https://wa.me/525547839629?text=%C2%A1Hola%20Thayed!%20Quiero%20hacer%20un%20pedido%20%F0%9F%94%A5" target="_blank" rel="noopener">Pedir por WhatsApp</a>
+</div>
+
+<!-- =========================================================
+     HERO
+========================================================= -->
+<header class="hero" id="inicio">
+  <div class="hero-fondo" aria-hidden="true"></div>
+  <div class="hero-velo" aria-hidden="true"></div>
+  <img class="hero-marca-agua" src="img/logo-thayed.png" alt="" aria-hidden="true" />
+  <canvas class="particles" data-densidad="1.2" aria-hidden="true"></canvas>
+
+  <div class="hero-inner">
+    <span class="hero-eyebrow"><span class="punto"></span> Fusión latino-coreana · Gustavo A. Madero, CDMX</span>
+
+    <h1 class="hero-titulo">
+      <span class="linea"><span class="palabra">Ven por</span></span>
+      <span class="linea"><span class="palabra">el antojo,</span></span>
+      <span class="linea"><span class="palabra">regresa por</span></span>
+      <span class="linea"><span class="palabra">el <em class="brush">sabor</em></span></span>
+    </h1>
+
+    <p class="hero-rotador" id="rotador"
+       data-frases="Bowls de ramen con nuestro sazón especial.|Hamburguesas jugosas hechas al momento.|Salsas exclusivas de corta temporada.|Bebidas de la casa que no hay en otro lado.">
+      <span class="texto"></span><span class="caret" aria-hidden="true"></span>
+    </p>
+
+    <p class="hero-sub">
+      Cocina latinoamericana y coreana en un mismo plato: recetas propias, salsas secretas
+      y bebidas exclusivas para compartir con los tuyos. <b>Hecho con pasión, servido con sabor.</b>
+    </p>
+
+    <div class="hero-ctas">
+      <a class="btn btn--primario" href="https://wa.me/525547839629?text=%C2%A1Hola%20Thayed!%20Quiero%20hacer%20un%20pedido%20%F0%9F%94%A5" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M11.999 0C5.373 0 0 5.373 0 12c0 2.117.554 4.1 1.523 5.82L.057 23.862l6.197-1.427A11.934 11.934 0 0012 24c6.627 0 12-5.373 12-12S18.626 0 11.999 0zm.001 21.818a9.801 9.801 0 01-4.99-1.366l-.358-.213-3.677.846.873-3.576-.233-.368A9.818 9.818 0 012.18 12C2.18 6.57 6.57 2.18 12 2.18c5.43 0 9.818 4.39 9.818 9.82 0 5.43-4.39 9.818-9.818 9.818z"/></svg>
+        Ordenar por WhatsApp
+      </a>
+      <a class="btn btn--fantasma" href="#menu">Ver el menú completo →</a>
+    </div>
+
+    <div class="hero-chips">
+      <span class="chip">🔥 <b>20</b> platillos en carta</span>
+      <span class="chip">💳 Efectivo · Transferencia · <b>Tarjeta</b></span>
+      <span class="chip">📱 Pedidos por <b>WhatsApp</b></span>
+    </div>
+  </div>
+
+  <div class="scroll-ind" id="scroll-ind" aria-hidden="true">
+    <span>Desliza</span>
+    <span class="scroll-raton"></span>
+  </div>
+</header>
+
+<!-- Marquesina de marca -->
+<div class="marquesina" aria-hidden="true">
+  <div class="marquesina-pista">
+    <span>Bowl de Ramen</span><span>Hamburguesas</span><span>Alitas &amp; Boneless</span><span>Burritos Jumbo</span>
+    <span>Chilaquiles</span><span>Salsas Exclusivas</span><span>Bebidas de la Casa</span><span>Buen Sabor, Buen Momento</span>
+    <span>Bowl de Ramen</span><span>Hamburguesas</span><span>Alitas &amp; Boneless</span><span>Burritos Jumbo</span>
+    <span>Chilaquiles</span><span>Salsas Exclusivas</span><span>Bebidas de la Casa</span><span>Buen Sabor, Buen Momento</span>
+  </div>
+</div>
+
+<!-- =========================================================
+     STATS — contadores animados
+========================================================= -->
+<section class="stats" aria-label="Thayed en números">
+  <div class="grid-lines" aria-hidden="true"></div>
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat reveal">
+        <span class="stat-num" data-target="20">0</span>
+        <span class="stat-lbl">Platillos en carta</span>
+      </div>
+      <div class="stat reveal">
+        <span class="stat-num" data-target="4">0</span>
+        <span class="stat-lbl">Niveles de picante</span>
+      </div>
+      <div class="stat reveal">
+        <span class="stat-num" data-target="3">0</span>
+        <span class="stat-lbl">Bases exclusivas de bebidas</span>
+      </div>
+      <div class="stat reveal">
+        <span class="stat-num" data-target="3">0</span>
+        <span class="stat-lbl">Formas de pago</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     POR QUÉ ELEGIRNOS — tarjetas numeradas 01 a 04
+========================================================= -->
+<section class="section section--carbon" id="razones">
+  <div class="grid-lines" aria-hidden="true"></div>
+  <canvas class="particles" data-densidad=".7" aria-hidden="true"></canvas>
+
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="tag">Por qué Thayed</span>
+      <h2 class="section-title">
+        <span class="mask-line"><span>Cocina de</span></span>
+        <span class="mask-line"><span><em>fusión</em> real</span></span>
+      </h2>
+      <p class="section-sub">Latinoamérica y Corea en el mismo plato. Recetas propias, salsas secretas y una carta pensada para compartir.</p>
+    </div>
+
+    <div class="razones">
+      <article class="razon reveal" data-num="01">
+        <span class="razon-icono">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18M5 8c0 3 3 4 7 4s7-1 7-4"/><circle cx="12" cy="12" r="9"/></svg>
+        </span>
+        <h3>Fusión que no encuentras en otro lado</h3>
+        <p>Un bowl de ramen con sazón coreano y un burrito jumbo en la misma carta. Sabor fusión, alma mexicana.</p>
+      </article>
+
+      <article class="razon reveal" data-num="02">
+        <span class="razon-icono">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20h16M6 20V9a6 6 0 0112 0v11M9 4l1-2M14 4l1-2"/></svg>
+        </span>
+        <h3>Recetas y sazón propios</h3>
+        <p>Nuestro empanizado secreto, la salsa secreta de las alitas y el sazón especial del ramen: nada sale de una fórmula genérica.</p>
+      </article>
+
+      <article class="razon reveal" data-num="03">
+        <span class="razon-icono">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h10M4 18h13"/><circle cx="18" cy="12" r="2"/><circle cx="20" cy="18" r="2"/></svg>
+        </span>
+        <h3>Tú armas tu platillo</h3>
+        <p>Elige la crema de tu bowl, asado o empanizado, la salsa de tus alitas y tu nivel de picante entre cuatro intensidades.</p>
+      </article>
+
+      <article class="razon reveal" data-num="04">
+        <span class="razon-icono">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3h8l-1 4H9L8 3zM9 7h6l1 12a2 2 0 01-2 2h-4a2 2 0 01-2-2L9 7z"/><path d="M9.5 13h5"/></svg>
+        </span>
+        <h3>Salsas y bebidas exclusivas</h3>
+        <p>Bases de Blue Berry, Melón y Taro para tus bebidas, además de salsas de corta temporada como la de Lichi.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     BANDA PARALLAX 1
+========================================================= -->
+<section class="banda" aria-label="Entradas Thayed">
+  <div class="banda-fondo" style="background-image:url('img/band-entradas.jpg')" aria-hidden="true"></div>
+  <canvas class="particles" data-densidad=".6" aria-hidden="true"></canvas>
+  <div class="banda-inner reveal">
+    <h2>Alitas en su punto, <em>boneless</em> bien crujientes</h2>
+    <p>Marinadas al momento en nuestra salsa secreta y servidas con papas gajo sazonadas. Tú eliges la salsa y qué tan picoso lo quieres.</p>
+    <div class="hero-ctas">
+      <a class="btn btn--primario" href="#menu">Ver entradas y precios</a>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     MENÚ — fotos reales de los platillos de Thayed
+========================================================= -->
+<section class="section section--negro" id="menu">
+  <div class="grid-lines" aria-hidden="true"></div>
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="tag">Nuestra carta</span>
+      <h2 class="section-title">
+        <span class="mask-line"><span>El menú</span></span>
+        <span class="mask-line"><span>de <em>Thayed</em></span></span>
+      </h2>
+      <p class="section-sub">Precios en pesos mexicanos. Todos los platillos se preparan al momento de tu pedido.</p>
+    </div>
+
+    <div class="filtros reveal" role="tablist" aria-label="Filtrar el menú por categoría">
+      <button class="filtro activo" data-cat="todo">Todo</button>
+      <button class="filtro" data-cat="hamburguesas">Hamburguesas</button>
+      <button class="filtro" data-cat="bowls">Bowls</button>
+      <button class="filtro" data-cat="entradas">Entradas</button>
+      <button class="filtro" data-cat="burritos">Burritos</button>
+      <button class="filtro" data-cat="complementos">Complementos</button>
+      <button class="filtro" data-cat="bebidas">Bebidas</button>
+      <button class="filtro" data-cat="combos">Combos</button>
+    </div>
+
+    <div class="menu-grid">
+
+      <!-- ---------- HAMBURGUESAS ---------- -->
+      <article class="plato reveal" data-cat="hamburguesas">
+        <div class="plato-foto">
+          <img src="img/baby-burgers.jpg" alt="Baby Burgers de Thayed: seis mini hamburguesas con carne de res, queso y verduras" loading="lazy" />
+          <span class="plato-precio">$80</span>
+          <span class="plato-cat">Hamburguesas</span>
+        </div>
+        <div class="plato-body">
+          <h3>Baby Burgers · 6 piezas</h3>
+          <p>Seis mini hamburguesas para compartir (o no). Perfectas para picar entre varios sin quedarte con el antojo.</p>
+          <a class="plato-pedir" href="https://wa.me/525547839629?text=%C2%A1Hola%20Thayed!%20Quiero%20pedir%20las%20Baby%20Burgers%20(6%20piezas)%20%2480" target="_blank" rel="noopener">Pedir este platillo →</a>
+        </div>
+      </article>
+
+      <article class="plato reveal" data-cat="hamburguesas">
+        <div class="plato-foto">
+          <img src="img/sencilla.jpg" alt="Hamburguesa Sencilla de Thayed con carne de res, queso amarillo, tocino y jamón" loading="lazy" />
+          <span class="plato-precio">$80</span>
+          <span class="plato-cat">Hamburguesas</span>
+        </div>
+        <div class="plato-body">
+          <h3>Hamburguesa Sencilla</h3>
+          <p>Suculenta carne de res acompañada de queso amarillo, tocino, jamón, lechuga, jitomate, cátsup, mostaza y cebolla.</p>
+          <a class="plato-pedir" href="https://wa.me/525547839629?text=%C2%A1Hola%20Thayed!%20Quiero%20pedir%20una%20Hamburguesa%20Sencilla%20%2480" target="_blank" rel="noopener">Pedir este platillo →</a>
+        </div>
+      </article>
+
+      <article class="plato reveal" data-cat="hamburguesas">
+        <div class="plato-foto">
+          <img src="img/hawaiana.jpg" alt="Hamburguesa Hawaiiana de Thayed con piña, queso amarillo, tocino y jamón" loading="lazy" />
+          <span class="plato-precio">$95</span>
+          <span class="plato-cat">Recomendada por Thayed</span>
+        </div>
+        <div class="plato-body">
+          <h3>Hamburguesa Hawaiiana</h3>
+          <p>Suculenta carne de res con queso amarillo, tocino, jamón, lechuga, jitomate, cátsup, mostaza, cebolla y piña que le da ese gran sabor.</p>
+          <a class="plato-pedir" href="https://wa.me/525547839629?text=%C2%A1Hola%20Thayed!%20Quiero%20pedir%20una%20Hamburguesa%20Hawaiiana%20%2495" target="_blank" rel="noopener">Pedir este platillo →</a>
+        </div>
+      </article>
+
+      <!-- ---------- BOWLS ---------- -->
+      <article class="plato reveal" data-cat="bowls">
+        <div class="plato-foto">
+          <img src="img/bowl-ramen.jpg" alt="Bowl de Ramen de Thayed con salchicha de pavo, huevo hervido y vegetales frescos" loading="lazy" />
+          <span class="plato-precio">$120</span>
+          <span class="plato-cat">Bowls · Coreano</span>
+        </div>
+        <div class="plato-body">
+          <h3>Bowl de Ramen</h3>
+          <p>Deliciosa sopa ramen preparada con nuestro sazón especial, acompañada de vegetales frescos, salchicha de pavo y huevo hervido.</p>
+          <a class="plato-pedir" href="https://wa.me/525547839629?text=%C2%A1Hola%20Thayed!%20Quiero%20pedir%20un%20Bowl%20de%20Ramen%20%24120" target="_blank" rel="noopener">Pedir este platillo →</a>
+        </div>
+      </article>
+
+      <article class="plato reveal" data-cat="bowls">
+        <div class="plato-foto">
+          <img src="img/bowl-pollo.jpg" alt="Bowl de Pollo de Thayed: coditos en crema coronados con pechuga de pollo asada" loading="lazy" />
+          <span class="plato-precio">$120</span>
+          <span class="plato-cat">Bowls</span>
+        </div>
+        <div class="plato-body">
+          <h3>Bowl de Pollo</h3>
+          <p>Cama de coditos en crema de champiñones, queso, chipotle o nuez, coronada con pechuga asada o empanizada con nuestro empanizado secreto.</p>
+          <a class="plato-pedir" href="https://wa.me/525547839629?text=%C2%A1Hola%20Thayed!%20Quiero%20pedir%20un%20Bowl%20de%20Pollo%20%24120" target="_blank" rel="noopener">Pedir este platillo →</a>
+        </div>
+      </article>
+
+      <article class="plato reveal" data-cat="bowls">
+        <div class="plato-foto">
+          <img src="img/bowl-res.jpg" alt="Bowl de Res de Thayed: coditos en crema coronados con bistec de res marinado" loading="lazy" />
+          <span class="plato-precio">$120</span>
+          <span class="plato-cat">Bowls</span>
+        </div>
+        <div class="plato-body">
+          <h3>Bowl de Res</h3>
+          <p>Cama de coditos en crema de champiñones, queso, chipotle o nuez, coronada con bistec de res marinado en nuestra receta secreta: asado o empanizado.</p>
+          <a class="plato-pedir" href="https://wa.me/525547839629?text=%C2%A1Hola%20Thayed!%20Quiero%20pedir%20un%20Bowl%20de%20Res%20%24120" target="_blank" rel="noopener">Pedir este platillo →</a>
+        </div>
+      </article>
+
+      <!-- ---------- ENTRADAS ---------- -->
+      <article class="plato reveal" data-cat="entradas">
+        <div class="plato-foto">
+          <img src="img/alitas.jpg" alt="Alitas de Thayed marinadas en salsa secreta, servidas con papas gajo" loading="lazy" />
+          <span class="plato-precio">$100</span>
+          <span class="plato-cat">Entradas</span>
+        </div>
+        <div class="plato-body">
+          <h3>Alitas</h3>
+          <p>Jugosas alitas recién marinadas en nuestra salsa secreta. Eliges la salsa de tu preferencia y se acompañan con papas gajo sazonadas.</p>
+          <a class="plato-pedir" href="https://wa.me/525547839629?text=%C2%A1Hola%20Thayed!%20Quiero%20pedir%20Alitas%20%24100" target="_blank" rel="noopener">Pedir este platillo →</a>
+        </div>
+      </article>
+
+      <article class="plato reveal" data-cat="entradas">
+        <div class="plato-foto">
+          <img src="img/boneless.jpg" alt="Boneless de Thayed: trozos de pechuga empanizada con papas gajo" loading="lazy" />
+          <span class="plato-precio">$120</span>
+          <span class="plato-cat">Entradas</span>
+        </div>
+        <div class="plato-body">
+          <h3>Boneless</h3>
+          <p>Crujientes y jugosos trozos de pechuga de pollo empanizados, acompañados de papas gajo sazonadas con amor y dedicación.</p>
+          <a class="plato-pedir" href="https://wa.me/525547839629?text=%C2%A1Hola%20Thayed!%20Quiero%20pedir%20Boneless%20%24120" target="_blank" rel="noopener">Pedir este platillo →</a>
+        </div>
+      </article>
+
+      <article class="plato reveal" data-cat="entradas">
+        <div class="plato-foto">
+          <img src="img/hotdogs.jpg" alt="Hot Dogs de Thayed con salchicha de pavo, queso, tocino y jitomate" loading="lazy" />
+          <span class="plato-precio">$100</span>
+          <span class="plato-cat">Entradas · 3 piezas</span>
+        </div>
+        <div class="plato-body">
+          <h3>Hot Dogs · 3 piezas</h3>
+          <p>Salchicha de pavo, queso, tocino, cebolla, mostaza y jitomate, acompañados de papas fritas (sabritas) a tu elección.</p>
+          <a class="plato-pedir" href="https://wa.me/525547839629?text=%C2%A1Hola%20Thayed!%20Quiero%20pedir%20Hot%20Dogs%20(3%20piezas)%20%24100" target="_blank" rel="noopener">Pedir este platillo →</a>
+        </div>
+      </article>
+
+      <!-- ---------- BURRITOS ---------- -->
+      <article class="plato reveal" data-cat="burritos">
+        <div class="plato-foto">
+          <img src="img/burrito-pollo.jpg" alt="Burrito de Pollo jumbo de Thayed con frijoles refritos y milanesa de pollo" loading="lazy" />
+          <span class="plato-precio">$120</span>
+          <span class="plato-cat">Burritos</span>
+        </div>
+        <div class="plato-body">
+          <h3>Burrito de Pollo</h3>
+          <p>Tortilla de harina tamaño jumbo con cama de frijoles refritos y puré de papa sazonado, coronada con milanesa de pollo asada o empanizada.</p>
+          <a class="plato-pedir" href="https://wa.me/525547839629?text=%C2%A1Hola%20Thayed!%20Quiero%20pedir%20un%20Burrito%20de%20Pollo%20%24120" target="_blank" rel="noopener">Pedir este platillo →</a>
+        </div>
+      </article>
+
+      <article class="plato reveal" data-cat="burritos">
+        <div class="plato-foto">
+          <img src="img/burrito-res.jpg" alt="Burrito de Res jumbo de Thayed con milanesa de res, lechuga y jitomate" loading="lazy" />
+          <span class="plato-precio">$120</span>
+          <span class="plato-cat">Burritos</span>
+        </div>
+        <div class="plato-body">
+          <h3>Burrito de Res</h3>
+          <p>Tortilla jumbo rellena de frijoles refritos y puré de papa sazonado, coronada con milanesa de res asada o empanizada, lechuga, jitomate y cebolla.</p>
+          <a class="plato-pedir" href="https://wa.me/525547839629?text=%C2%A1Hola%20Thayed!%20Quiero%20pedir%20un%20Burrito%20de%20Res%20%24120" target="_blank" rel="noopener">Pedir este platillo →</a>
+        </div>
+      </article>
+
+      <!-- ---------- NUEVOS PLATILLOS (sin fotografía propia disponible) ---------- -->
+      <article class="plato plato--grafico reveal" data-cat="complementos">
+        <div class="plato-foto">
+          <span class="glifo">Rojos<small>Nuevo platillo</small></span>
+          <span class="plato-precio">$80</span>
+          <span class="plato-cat">Chilaquiles</span>
+        </div>
+        <div class="plato-body">
+          <h3>Chilaquiles Rojos</h3>
+          <p>Uno de nuestros platillos nuevos, servido con refresco. Pregúntanos por WhatsApp por la preparación del día.</p>
+          <a class="plato-pedir" href="https://wa.me/525547839629?text=%C2%A1Hola%20Thayed!%20Quiero%20pedir%20Chilaquiles%20Rojos%20%2480" target="_blank" rel="noopener">Pedir este platillo →</a>
+        </div>
+      </article>
+
+      <article class="plato plato--grafico reveal" data-cat="complementos">
+        <div class="plato-foto">
+          <span class="glifo">Verdes<small>Nuevo platillo</small></span>
+          <span class="plato-precio">$80</span>
+          <span class="plato-cat">Chilaquiles</span>
+        </div>
+        <div class="plato-body">
+          <h3>Chilaquiles Verdes</h3>
+          <p>La versión verde de nuestros chilaquiles, también servida con refresco. Ideal para empezar bien el día.</p>
+          <a class="plato-pedir" href="https://wa.me/525547839629?text=%C2%A1Hola%20Thayed!%20Quiero%20pedir%20Chilaquiles%20Verdes%20%2480" target="_blank" rel="noopener">Pedir este platillo →</a>
+        </div>
+      </article>
+
+      <!-- ---------- COMPLEMENTOS ---------- -->
+      <article class="plato reveal" data-cat="complementos">
+        <div class="plato-foto">
+          <img src="img/papas.jpg" alt="Papas gajo de Thayed sazonadas con mezcla especial de especias" loading="lazy" />
+          <span class="plato-precio">$60</span>
+          <span class="plato-cat">Complementos</span>
+        </div>
+        <div class="plato-body">
+          <h3>Papas Gajo</h3>
+          <p>Crujientes papas gajo sazonadas con nuestra mezcla especial de especias, para un sabor irresistible en cada bocado.</p>
+          <a class="plato-pedir" href="https://wa.me/525547839629?text=%C2%A1Hola%20Thayed!%20Quiero%20pedir%20Papas%20Gajo%20%2460" target="_blank" rel="noopener">Pedir este platillo →</a>
+        </div>
+      </article>
+
+      <article class="plato reveal" data-cat="complementos">
+        <div class="plato-foto">
+          <img src="img/club.jpg" alt="Club Sándwich de cuatro niveles de Thayed acompañado de papas fritas" loading="lazy" />
+          <span class="plato-precio">$80</span>
+          <span class="plato-cat">Complementos</span>
+        </div>
+        <div class="plato-body">
+          <h3>Club Sándwich</h3>
+          <p>Cuatro niveles con ensalada de pollo o el tradicional de jamón y queso, con mayonesa, lechuga, jitomate, cebolla y chiles en vinagre.</p>
+          <a class="plato-pedir" href="https://wa.me/525547839629?text=%C2%A1Hola%20Thayed!%20Quiero%20pedir%20un%20Club%20S%C3%A1ndwich%20%2480" target="_blank" rel="noopener">Pedir este platillo →</a>
+        </div>
+      </article>
+
+      <!-- ---------- BEBIDAS ---------- -->
+      <article class="plato reveal" data-cat="bebidas">
+        <div class="plato-foto">
+          <img src="img/coca-cherry.jpg" alt="Coca Cherry de la casa Thayed, refresco con toque de cerezas" loading="lazy" />
+          <span class="plato-precio">$80</span>
+          <span class="plato-cat">Bebidas de la casa</span>
+        </div>
+        <div class="plato-body">
+          <h3>Coca Cherry</h3>
+          <p>La reconocida coca cola con un toque exquisito de cerezas que te hará explotar la boca de sabor.</p>
+          <a class="plato-pedir" href="https://wa.me/525547839629?text=%C2%A1Hola%20Thayed!%20Quiero%20pedir%20una%20Coca%20Cherry%20%2480" target="_blank" rel="noopener">Pedir esta bebida →</a>
+        </div>
+      </article>
+
+      <article class="plato reveal" data-cat="bebidas">
+        <div class="plato-foto">
+          <img src="img/coca-vainilla.jpg" alt="Coca Vainilla de la casa Thayed, refresco con toque de vainilla" loading="lazy" />
+          <span class="plato-precio">$80</span>
+          <span class="plato-cat">Bebidas de la casa</span>
+        </div>
+        <div class="plato-body">
+          <h3>Coca Vainilla</h3>
+          <p>La reconocida coca cola con un toque exquisito de vainilla que te hará explotar la boca de sabor.</p>
+          <a class="plato-pedir" href="https://wa.me/525547839629?text=%C2%A1Hola%20Thayed!%20Quiero%20pedir%20una%20Coca%20Vainilla%20%2480" target="_blank" rel="noopener">Pedir esta bebida →</a>
+        </div>
+      </article>
+
+      <article class="plato reveal" data-cat="bebidas">
+        <div class="plato-foto">
+          <img src="img/boom.jpg" alt="Thayed Boom, bebida de la casa con mezcla de sabores naranja" loading="lazy" />
+          <span class="plato-precio">$80</span>
+          <span class="plato-cat">Bebidas de la casa</span>
+        </div>
+        <div class="plato-body">
+          <h3>Thayed Boom</h3>
+          <p>Bebida con una excelente e inigualable gama mezcla de sabores naranja. Nuestra bebida insignia.</p>
+          <a class="plato-pedir" href="https://wa.me/525547839629?text=%C2%A1Hola%20Thayed!%20Quiero%20pedir%20un%20Thayed%20Boom%20%2480" target="_blank" rel="noopener">Pedir esta bebida →</a>
+        </div>
+      </article>
+
+      <!-- ---------- COMBOS ---------- -->
+      <article class="plato reveal" data-cat="combos">
+        <div class="plato-foto">
+          <img src="img/band-burgers.jpg" alt="Combo Hamburguesa de Thayed: hamburguesa con papas y refresco" loading="lazy" />
+          <span class="plato-precio">$160</span>
+          <span class="plato-cat">Combos</span>
+        </div>
+        <div class="plato-body">
+          <h3>Combo Hamburguesa</h3>
+          <p>Nuestro combo para una persona con hamburguesa, papas y refresco. Confírmanos la combinación exacta por WhatsApp.</p>
+          <a class="plato-pedir" href="https://wa.me/525547839629?text=%C2%A1Hola%20Thayed!%20Quiero%20pedir%20el%20Combo%20Hamburguesa%20%24160" target="_blank" rel="noopener">Pedir el combo →</a>
+        </div>
+      </article>
+
+      <article class="plato reveal" data-cat="combos">
+        <div class="plato-foto">
+          <img src="img/baby-burgers.jpg" alt="Combo Familiar de Thayed con varias hamburguesas, papas y refresco" loading="lazy" />
+          <span class="plato-precio">$399</span>
+          <span class="plato-cat">Combos · Para compartir</span>
+        </div>
+        <div class="plato-body">
+          <h3>Combo Familiar</h3>
+          <p>La opción para toda la familia: hamburguesas, papas y refresco en un solo pedido. El favorito para reuniones en casa.</p>
+          <a class="plato-pedir" href="https://wa.me/525547839629?text=%C2%A1Hola%20Thayed!%20Quiero%20pedir%20el%20Combo%20Familiar%20%24399" target="_blank" rel="noopener">Pedir el combo →</a>
+        </div>
+      </article>
+
+    </div>
+
+    <div class="menu-nota reveal">
+      <p>
+        <b>Extras disponibles:</b> tocino, piña y queso extra ·
+        <b>Nivel de picante a tu gusto:</b> del más suave al más picoso ·
+        ¿Dudas o precios de extras? Te confirmamos todo por WhatsApp.
+      </p>
+      <a class="btn btn--primario" href="https://wa.me/525547839629?text=%C2%A1Hola%20Thayed!%20Quiero%20consultar%20los%20extras%20y%20niveles%20de%20picante" target="_blank" rel="noopener">Consultar extras</a>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     BANDA PARALLAX 2
+========================================================= -->
+<section class="banda" aria-label="Bowl de ramen Thayed">
+  <div class="banda-fondo" style="background-image:url('img/band-ramen.jpg')" aria-hidden="true"></div>
+  <div class="banda-inner reveal">
+    <h2>El ramen que puso a Thayed <em>en el mapa</em></h2>
+    <p>Sopa ramen con nuestro sazón especial, vegetales frescos, salchicha de pavo y huevo hervido. La fusión coreana que nadie más hace por aquí.</p>
+    <div class="hero-ctas">
+      <a class="btn btn--primario" href="https://wa.me/525547839629?text=%C2%A1Hola%20Thayed!%20Quiero%20pedir%20un%20Bowl%20de%20Ramen%20%24120" target="_blank" rel="noopener">Pedir mi Bowl de Ramen · $120</a>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     SALSAS Y BASES EXCLUSIVAS
+========================================================= -->
+<section class="section section--amarillo" id="sabores">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="tag">Exclusivo de la casa</span>
+      <h2 class="section-title">
+        <span class="mask-line"><span>Salsas y bases</span></span>
+        <span class="mask-line"><span>sólo de <em>aquí</em></span></span>
+      </h2>
+      <p class="section-sub">Bases para bebidas y salsas de corta temporada, preparadas en el restaurante. Cuando se acaban, se acaban.</p>
+    </div>
+
+    <div class="sabores">
+      <article class="sabor reveal">
+        <img src="img/salsa-lichi.jpg" alt="Salsa exclusiva sabor Lichi de Thayed, de corta temporada" loading="lazy" />
+        <div class="sabor-body">
+          <span>Base para salsas</span>
+          <h3>Lichi</h3>
+          <p>Nuestra salsa exclusiva de corta temporada. Ven a probarla antes de que se termine.</p>
+        </div>
+      </article>
+
+      <article class="sabor reveal">
+        <img src="img/sabor-blueberry.jpg" alt="Base para bebidas sabor Blue Berry de Thayed" loading="lazy" />
+        <div class="sabor-body">
+          <span>Base para bebidas</span>
+          <h3>Blue Berry</h3>
+          <p>Bebidas exclusivas y smoothies preparados con base de blue berry.</p>
+        </div>
+      </article>
+
+      <article class="sabor reveal">
+        <img src="img/sabor-melon.jpg" alt="Base para bebidas sabor Melón de Thayed, calidad de tierra" loading="lazy" />
+        <div class="sabor-body">
+          <span>Base para bebidas</span>
+          <h3>Melón</h3>
+          <p>Calidad de tierra en cada vaso: dulce, fresco y perfecto para el calor.</p>
+        </div>
+      </article>
+
+      <article class="sabor reveal">
+        <img src="img/sabor-taro.jpg" alt="Base para bebidas sabor Taro de Thayed, clásico asiático" loading="lazy" />
+        <div class="sabor-body">
+          <span>Base para bebidas</span>
+          <h3>Taro</h3>
+          <p>El clásico asiático, cremoso y distinto a todo lo que hayas probado.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     CÓMO PEDIR — 3 pasos
+========================================================= -->
+<section class="section section--carbon" id="proceso">
+  <div class="grid-lines" aria-hidden="true"></div>
+  <canvas class="particles" data-densidad=".8" aria-hidden="true"></canvas>
+
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="tag">Así de fácil</span>
+      <h2 class="section-title">
+        <span class="mask-line"><span>Pide en</span></span>
+        <span class="mask-line"><span><em>3 pasos</em></span></span>
+      </h2>
+      <p class="section-sub">Sin apps, sin registros y sin comisiones de intermediarios: directo con nosotros.</p>
+    </div>
+
+    <div class="pasos">
+      <article class="paso reveal">
+        <span class="paso-linea" aria-hidden="true"></span>
+        <span class="paso-num"><b>01</b> Paso uno</span>
+        <h3>Elige tu antojo</h3>
+        <p>Revisa la carta completa aquí arriba: hamburguesas, bowls, entradas, burritos, complementos y bebidas de la casa con precios claros.</p>
+      </article>
+
+      <article class="paso reveal">
+        <span class="paso-linea" aria-hidden="true"></span>
+        <span class="paso-num"><b>02</b> Paso dos</span>
+        <h3>Escríbenos por WhatsApp</h3>
+        <p>Mándanos tu pedido al <b>55 4783 9629</b>. Ahí mismo eliges tu salsa, tu nivel de picante y los extras que quieras agregar.</p>
+      </article>
+
+      <article class="paso reveal">
+        <span class="paso-linea" aria-hidden="true"></span>
+        <span class="paso-num"><b>03</b> Paso tres</span>
+        <h3>Recoge y disfruta</h3>
+        <p>Te esperamos en Plaza Jardín, planta alta. Paga en efectivo, transferencia o con tarjeta, como se te acomode mejor.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     BANDA PARALLAX 3
+========================================================= -->
+<section class="banda" aria-label="Burritos jumbo Thayed">
+  <div class="banda-fondo" style="background-image:url('img/band-burritos.jpg')" aria-hidden="true"></div>
+  <canvas class="particles" data-densidad=".5" aria-hidden="true"></canvas>
+  <div class="banda-inner reveal">
+    <h2>Burritos jumbo que sí <em>llenan</em></h2>
+    <p>Tortilla de harina tamaño jumbo, cama de frijoles refritos, puré de papa sazonado y milanesa de pollo o res. Uno alcanza y sobra.</p>
+    <div class="hero-ctas">
+      <a class="btn btn--primario" href="https://wa.me/525547839629?text=%C2%A1Hola%20Thayed!%20Quiero%20pedir%20un%20Burrito%20jumbo%20%24120" target="_blank" rel="noopener">Pedir un burrito · $120</a>
+      <a class="btn btn--fantasma" href="#menu">Ver toda la carta</a>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     GALERÍA — fotografías reales del restaurante
+========================================================= -->
+<section class="section section--negro" id="galeria">
+  <div class="grid-lines" aria-hidden="true"></div>
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="tag">Fotos reales</span>
+      <h2 class="section-title">
+        <span class="mask-line"><span>Así se vive</span></span>
+        <span class="mask-line"><span><em>Thayed</em></span></span>
+      </h2>
+      <p class="section-sub">Nuestro local, nuestra carta y los platillos tal como los servimos. Sin fotos de catálogo.</p>
+    </div>
+
+    <div class="galeria">
+      <figure class="gal gal--ancho gal--alto reveal">
+        <img src="img/local-thayed.jpg" alt="Local de Thayed Restaurante en Plaza Jardín con su menú impreso y área de preparación" loading="lazy" />
+        <figcaption><b>Nuestro local</b>Plaza Jardín, planta alta — Cuautepec, GAM.</figcaption>
+      </figure>
+
+      <figure class="gal reveal">
+        <img src="img/menu-banner.jpg" alt="Menú impreso de Thayed Restaurante con hamburguesas, bowls, entradas y combos" loading="lazy" />
+        <figcaption><b>La carta completa</b>Todo nuestro menú.</figcaption>
+      </figure>
+
+      <figure class="gal reveal">
+        <img src="img/bowl-ramen.jpg" alt="Bowl de ramen servido en Thayed con huevo, salchicha de pavo y vegetales" loading="lazy" />
+        <figcaption><b>Bowl de Ramen</b>Sazón especial de la casa.</figcaption>
+      </figure>
+
+      <figure class="gal reveal">
+        <img src="img/plaza-jardin.jpg" alt="Entrada de Plaza Jardín donde se ubica Thayed Restaurante en planta alta" loading="lazy" />
+        <figcaption><b>Cómo llegar</b>Plaza Jardín, planta alta.</figcaption>
+      </figure>
+
+      <figure class="gal reveal">
+        <img src="img/alitas.jpg" alt="Orden de alitas de Thayed con papas gajo y aderezo" loading="lazy" />
+        <figcaption><b>Alitas con papas gajo</b>Marinadas en salsa secreta.</figcaption>
+      </figure>
+
+      <figure class="gal gal--ancho reveal">
+        <img src="img/club.jpg" alt="Club sándwich de cuatro niveles servido en Thayed con papas a la francesa" loading="lazy" />
+        <figcaption><b>Club Sándwich</b>Cuatro niveles, como debe ser.</figcaption>
+      </figure>
+
+      <figure class="gal gal--ancho reveal">
+        <img src="img/burrito-res.jpg" alt="Burrito de res jumbo de Thayed partido a la mitad" loading="lazy" />
+        <figcaption><b>Burrito de Res</b>Jumbo, relleno hasta el borde.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     EXPERIENCIA THAYED
+========================================================= -->
+<section class="section section--carbon" id="experiencia">
+  <canvas class="particles" data-densidad=".6" aria-hidden="true"></canvas>
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="tag">La experiencia</span>
+      <h2 class="section-title">
+        <span class="mask-line"><span>Buen sabor,</span></span>
+        <span class="mask-line"><span>buen <em>momento</em></span></span>
+      </h2>
+      <p class="section-sub">No es sólo comer rico: es el lugar al que regresas con los tuyos.</p>
+    </div>
+
+    <div class="exp-grid">
+      <article class="exp reveal">
+        <span class="exp-ini">F</span>
+        <h3>Fusión real</h3>
+        <p>Sabores latinoamericanos y coreanos combinados con criterio, no por moda. Ingredientes frescos y recetas propias.</p>
+      </article>
+
+      <article class="exp reveal">
+        <span class="exp-ini">P</span>
+        <h3>Hecho con pasión</h3>
+        <p>Cada platillo se prepara al momento de tu pedido. Así garantizamos que llegue como debe llegar.</p>
+      </article>
+
+      <article class="exp reveal">
+        <span class="exp-ini">C</span>
+        <h3>Para compartir</h3>
+        <p>Baby burgers, combos familiares y entradas pensadas para la mesa: amigos, familia y buena plática.</p>
+      </article>
+
+      <article class="exp reveal">
+        <span class="exp-ini">S</span>
+        <h3>Sabor que regresa</h3>
+        <p>Nuestro lema lo dice todo: ven por el antojo, regresa por el sabor. Y sí, la gente regresa.</p>
+      </article>
+    </div>
+
+    <div class="menu-nota reveal" style="margin-top:38px">
+      <p>¿Ya nos visitaste? Cuéntale a más gente cómo te fue: <b>déjanos tu opinión en Facebook.</b></p>
+      <a class="btn btn--fantasma" href="https://www.facebook.com/share/197CVoY4V1/" target="_blank" rel="noopener">Ir a nuestro Facebook</a>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     CONTACTO — datos, mapa y formulario que abre WhatsApp
+========================================================= -->
+<section class="section section--negro" id="contacto">
+  <div class="grid-lines" aria-hidden="true"></div>
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="tag">Contacto y ubicación</span>
+      <h2 class="section-title">
+        <span class="mask-line"><span>Te esperamos</span></span>
+        <span class="mask-line"><span>en <em>Thayed</em></span></span>
+      </h2>
+      <p class="section-sub">Escríbenos y te respondemos por WhatsApp. Sin formularios que se pierden en un correo.</p>
+    </div>
+
+    <div class="contacto-grid">
+
+      <!-- Formulario -->
+      <div class="form-card reveal reveal--izq">
+        <h3>Haz tu pedido</h3>
+        <p>Llena estos datos y se abrirá WhatsApp con tu mensaje ya escrito. Sólo dale enviar.</p>
+
+        <form id="form-contacto" novalidate>
+          <div class="campo">
+            <label for="f-nombre">Tu nombre</label>
+            <input type="text" id="f-nombre" name="nombre" placeholder="¿Cómo te llamas?" required />
+          </div>
+
+          <div class="campo">
+            <label for="f-tel">Teléfono / WhatsApp</label>
+            <input type="tel" id="f-tel" name="telefono" placeholder="10 dígitos" />
+          </div>
+
+          <div class="campo">
+            <label for="f-pedido">¿Qué se te antoja?</label>
+            <select id="f-pedido" name="pedido">
+              <option>Hamburguesas</option>
+              <option>Bowls (pollo, res o ramen)</option>
+              <option>Entradas (alitas, boneless, hot dogs)</option>
+              <option>Burritos jumbo</option>
+              <option>Chilaquiles</option>
+              <option>Combos para compartir</option>
+              <option>Bebidas de la casa</option>
+              <option>Información general</option>
+            </select>
+          </div>
+
+          <div class="campo">
+            <label for="f-mensaje">Detalles de tu pedido</label>
+            <textarea id="f-mensaje" name="mensaje" placeholder="Ej. 2 bowls de pollo con crema de chipotle, nivel de picante medio…"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn--primario btn--bloque">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M11.999 0C5.373 0 0 5.373 0 12c0 2.117.554 4.1 1.523 5.82L.057 23.862l6.197-1.427A11.934 11.934 0 0012 24c6.627 0 12-5.373 12-12S18.626 0 11.999 0zm.001 21.818a9.801 9.801 0 01-4.99-1.366l-.358-.213-3.677.846.873-3.576-.233-.368A9.818 9.818 0 012.18 12C2.18 6.57 6.57 2.18 12 2.18c5.43 0 9.818 4.39 9.818 9.82 0 5.43-4.39 9.818-9.818 9.818z"/></svg>
+            Enviar pedido por WhatsApp
+          </button>
+          <p class="form-nota">Te contestamos directo al chat. Sin registros ni comisiones.</p>
+        </form>
+      </div>
+
+      <!-- Información + mapa -->
+      <div class="info-col reveal reveal--der">
+        <div class="info">
+          <span class="info-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.3 7-11a7 7 0 10-14 0c0 4.7 7 11 7 11z"/><circle cx="12" cy="10" r="2.6"/></svg></span>
+          <div>
+            <b>Dónde estamos</b>
+            <p>
+              Plaza Jardín, planta alta — Cuautepec, Gustavo A. Madero, CDMX.<br />
+              <a href="https://www.google.com/maps?q=19.5553424,-99.1324359&amp;z=17&amp;hl=es" target="_blank" rel="noopener">Abrir en Google Maps →</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="info">
+          <span class="info-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 016.5 3h1.8a1 1 0 011 .8l.7 3a1 1 0 01-.5 1.1L8 8.9a12 12 0 007.1 7.1l1-1.5a1 1 0 011.1-.5l3 .7a1 1 0 01.8 1v1.8A2.5 2.5 0 0118.5 20 14.5 14.5 0 014 5.5z"/></svg></span>
+          <div>
+            <b>WhatsApp y llamadas</b>
+            <p><a href="https://wa.me/525547839629" target="_blank" rel="noopener">55 4783 9629</a> — atención por WhatsApp y por llamada.</p>
+          </div>
+        </div>
+
+        <div class="info">
+          <span class="info-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="5" width="19" height="14" rx="2.5"/><path d="M2.5 10h19"/></svg></span>
+          <div>
+            <b>Formas de pago</b>
+            <p>Efectivo · Transferencia · Tarjeta.</p>
+          </div>
+        </div>
+
+        <div class="info">
+          <span class="info-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.2 2"/></svg></span>
+          <div>
+            <b>Horario de hoy</b>
+            <p>Escríbenos por WhatsApp y te confirmamos al momento si ya estamos abiertos.</p>
+          </div>
+        </div>
+
+        <!-- Mapa de Google con la ubicación exacta del negocio -->
+        <div class="mapa">
+          <iframe
+            title="Ubicación de Thayed Restaurante en Google Maps"
+            src="https://www.google.com/maps?q=19.5553424,-99.1324359&amp;z=17&amp;hl=es&amp;output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+<footer role="contentinfo">
+  <div class="grid-lines" aria-hidden="true"></div>
+  <div class="container">
+    <div class="footer-grid">
+
+      <div class="footer-marca">
+        <img src="img/logo-thayed.png" alt="Thayed Restaurante" loading="lazy" />
+        <p>Buen sabor, buen momento. Fusión latinoamericana y coreana hecha con pasión en Gustavo A. Madero, CDMX.</p>
+        <div class="redes">
+          <a class="red" href="https://www.facebook.com/share/197CVoY4V1/" target="_blank" rel="noopener" aria-label="Facebook de Thayed Restaurante">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 12a10 10 0 10-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.4h-1.2c-1.2 0-1.6.8-1.6 1.6V12h2.7l-.4 2.9h-2.3v7A10 10 0 0022 12z"/></svg>
+          </a>
+          <a class="red" href="https://wa.me/525547839629" target="_blank" rel="noopener" aria-label="WhatsApp de Thayed Restaurante">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M11.999 0C5.373 0 0 5.373 0 12c0 2.117.554 4.1 1.523 5.82L.057 23.862l6.197-1.427A11.934 11.934 0 0012 24c6.627 0 12-5.373 12-12S18.626 0 11.999 0zm.001 21.818a9.801 9.801 0 01-4.99-1.366l-.358-.213-3.677.846.873-3.576-.233-.368A9.818 9.818 0 012.18 12C2.18 6.57 6.57 2.18 12 2.18c5.43 0 9.818 4.39 9.818 9.82 0 5.43-4.39 9.818-9.818 9.818z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Menú</h4>
+        <ul>
+          <li><a href="#menu">Hamburguesas</a></li>
+          <li><a href="#menu">Bowls y ramen</a></li>
+          <li><a href="#menu">Entradas</a></li>
+          <li><a href="#menu">Burritos jumbo</a></li>
+          <li><a href="#menu">Bebidas de la casa</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Explora</h4>
+        <ul>
+          <li><a href="#razones">Por qué Thayed</a></li>
+          <li><a href="#sabores">Salsas y bases</a></li>
+          <li><a href="#proceso">Cómo pedir</a></li>
+          <li><a href="#galeria">Galería</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contacto</h4>
+        <ul>
+          <li><a href="https://wa.me/525547839629" target="_blank" rel="noopener">WhatsApp 55 4783 9629</a></li>
+          <li><a href="https://www.google.com/maps?q=19.5553424,-99.1324359&amp;z=17&amp;hl=es" target="_blank" rel="noopener">Plaza Jardín, planta alta</a></li>
+          <li><span>Cuautepec, GAM, CDMX</span></li>
+          <li><span>Efectivo · Transferencia · Tarjeta</span></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-base">
+      <span>© <span id="anio">2026</span> Thayed Restaurante. Todos los derechos reservados.</span>
+      <span>Ven por el antojo, regresa por el sabor.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Botón flotante de WhatsApp -->
+<a class="wa-float"
+   href="https://wa.me/525547839629?text=%C2%A1Hola%20Thayed!%20Quiero%20hacer%20un%20pedido%20%F0%9F%94%A5"
+   target="_blank" rel="noopener noreferrer" aria-label="Pedir por WhatsApp a Thayed Restaurante">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M11.999 0C5.373 0 0 5.373 0 12c0 2.117.554 4.1 1.523 5.82L.057 23.862l6.197-1.427A11.934 11.934 0 0012 24c6.627 0 12-5.373 12-12S18.626 0 11.999 0zm.001 21.818a9.801 9.801 0 01-4.99-1.366l-.358-.213-3.677.846.873-3.576-.233-.368A9.818 9.818 0 012.18 12C2.18 6.57 6.57 2.18 12 2.18c5.43 0 9.818 4.39 9.818 9.82 0 5.43-4.39 9.818-9.818 9.818z"/></svg>
+  Pedir ahora
+</a>
+
+<script src="main.js"></script>
+<script>document.getElementById('anio').textContent = new Date().getFullYear();</script>
+
+</body>
+</html>
